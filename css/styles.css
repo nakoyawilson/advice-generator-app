@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+  --font: "Manrope", sans-serif;
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --neon-shadow: hsla(150, 100%, 66%, 0.5);
+  --grayish-blue: hsl(217, 21%, 24%);
+  --dark-grayish-blue: hsl(221, 23%, 16%);
+  --card-shadow: hsla(217, 19%, 24%, 0.1);
+  /* --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%); */
+}
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--dark-grayish-blue);
+  color: var(--light-cyan);
+  font-family: var(--font);
+  text-align: center;
+  font-weight: 800;
+}
+
+img {
+  display: block;
+}
+
+.card {
+  background: var(--grayish-blue);
+  width: min(92.5333%, 54rem);
+  margin: 12rem auto;
+  border-radius: 15px;
+  padding: 4.25rem 2.5rem 7rem;
+  position: relative;
+  box-shadow: 0 0 5rem 5rem var(--card-shadow);
+}
+
+.advice-title {
+  color: var(--neon-green);
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.advice-text {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.divider-wrapper {
+  display: block;
+  max-width: 44.4rem;
+  max-height: 1.6rem;
+  margin-inline: auto;
+}
+
+.divider {
+  width: 100%;
+}
+
+.btn {
+  position: absolute;
+  bottom: -3.25rem;
+  left: 50%;
+  margin-inline: -3.25rem;
+  background-color: var(--neon-green);
+  border: none;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2rem 2rem var(--neon-shadow);
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--neon-green);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1440px) {
+  .card {
+    margin: 22.25rem auto;
+    padding: 4.9rem 4.5rem 7rem;
+  }
+
+  .advice-text {
+    margin-bottom: 4.2rem;
+  }
+}

@@ -19,10 +19,23 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
-    <main>
-      <h1>Advice #<span id="advice-id"></span></h1>
-      <p>"<span id="advice"></span>"</p>
-      <button id="advice-btn"><img src="images/icon-dice.svg" alt="" /></button>
+    <main class="card">
+      <span class="advice-title">Advice #<span id="advice-id">117</span></span>
+      <h1 class="advice-text">&ldquo;<span id="advice"></span>&rdquo;</h1>
+      <picture class="divider-wrapper">
+        <source
+          media="(max-width: 799px)"
+          srcset="images/pattern-divider.mobile.svg"
+        />
+        <source
+          media="(min-width: 800px)"
+          srcset="images/pattern-divider-desktop.svg"
+        />
+        <img src="images/pattern-divider.mobile.svg" alt="" class="divider" />
+      </picture>
+      <button id="advice-btn" class="btn">
+        <img src="images/icon-dice.svg" alt="" />
+      </button>
     </main>
     <footer>
       <p class="attribution">

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap");
 
 :root {
   --font: "Manrope", sans-serif;
@@ -8,8 +8,6 @@
   --grayish-blue: hsl(217, 21%, 24%);
   --dark-grayish-blue: hsl(221, 23%, 16%);
   --card-shadow: hsla(217, 19%, 24%, 0.1);
-  /* --grayish-blue: hsl(217, 19%, 38%);
-  --dark-grayish-blue: hsl(217, 19%, 24%); */
 }
 
 /* CSS Reset */
@@ -62,7 +60,7 @@ img {
 .advice-text {
   font-size: 2.8rem;
   margin-bottom: 2rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .divider-wrapper {
@@ -109,13 +107,13 @@ img {
 }
 
 /* Media Queries */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 720px) {
   .card {
     margin: 22.25rem auto;
-    padding: 4.9rem 4.5rem 7rem;
+    padding: 4.9rem 4.5rem 7.2rem;
   }
 
   .advice-text {
-    margin-bottom: 4.2rem;
+    margin-bottom: 4rem;
   }
 }

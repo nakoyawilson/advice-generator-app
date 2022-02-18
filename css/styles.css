@@ -109,7 +109,7 @@ img {
 /* Media Queries */
 @media screen and (min-width: 720px) {
   .card {
-    margin: 22.25rem auto;
+    margin: 22.25rem auto 24rem;
     padding: 4.9rem 4.5rem 7.2rem;
   }
 

@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-advice-generator-app-jPeYsQA22](https://www.frontendmentor.io/solutions/mobile-first-advice-generator-app-jPeYsQA22)
-- Live Site URL: [https://github.com/nakoyawilson/advice-generator-app](https://github.com/nakoyawilson/advice-generator-app)
+- Live Site URL: [https://nakoyawilson.github.io/advice-generator-app/](https://nakoyawilson.github.io/advice-generator-app/)
 
 ## My process
 

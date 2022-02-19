@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <form id="search-form">
+        <label for="search" class="visually-hidden">Search for Advice:</label
+        ><input type="text" id="search" placeholder="Search for Advice:" />
+        <button id="search-btn" class="btn-search">Search</button>
+      </form>
+      <div id="search-results" class="results-grid"></div>
+    </main>
+    <script src="js/search.js"></script>
+  </body>
+</html>

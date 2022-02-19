@@ -14,7 +14,7 @@ const startingAdvice = async (slip_id) => {
   }
 };
 
-// startingAdvice("71");
+startingAdvice("71");
 
 const getAdvice = async () => {
   try {

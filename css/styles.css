@@ -113,12 +113,12 @@ img {
   grid-template-columns: 1fr;
   width: min(92.5333%, 112rem);
   gap: 4rem;
-  margin-inline: auto;
+  margin: 0 auto 4rem;
 }
 
 .results-grid .card {
   width: 100%;
-  margin: 0 0 0 4rem;
+  margin: 0;
   padding: 4.25rem 2.5rem;
 }
 

@@ -4,10 +4,11 @@ const search = document.querySelector("#search"),
 
 const searchAdvice = async (query) => {
   try {
-    const response = await axios.get(
+    const response = await fetch(
       `https://api.adviceslip.com/advice/search/${query}`
     );
-    const adviceSlips = response.data.slips;
+    const data = await response.json();
+    const adviceSlips = data.slips;
     searchResults.innerHTML = "";
     adviceSlips.forEach((slip) => {
       const card = document.createElement("div");
